@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3D49"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.narvin.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/popular_movies_button"
+        style="@style/RegularButtons"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp"
+        android:text="@string/popular_movies"/>
+
+    <Button
+        android:id="@+id/stock_hawk_button"
+        style="@style/RegularButtons"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp"
+        android:text="@string/stock_hawk"/>
+
+    <Button
+        android:id="@+id/build_bigger_button"
+        style="@style/RegularButtons"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp"
+        android:text="@string/build_it_bigger"/>
+
+    <Button
+        android:id="@+id/make_material_button"
+        style="@style/RegularButtons"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp"
+        android:text="@string/make_app_material"
+        />
+
+    <Button
+        android:id="@+id/go_ubiquitous_button"
+        style="@style/RegularButtons"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="8dp"
+        android:text="@string/go_ubiquitous"/>
+
+    <Button
+        android:id="@+id/capstone_button"
+        style="@style/RegularButtons"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FF5722"
+        android:text="@string/capstone"/>
+
+</LinearLayout>
